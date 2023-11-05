@@ -70,7 +70,6 @@ function addMarkup(markup = '') {
     galleryElement.insertAdjacentHTML('beforeend', markup)
 }
 
-
 function clearGallery() {
     galleryElement.innerHTML = ''; 
 }
